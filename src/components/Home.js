@@ -77,9 +77,6 @@ export default function Home() {
                 <li className="mb-3">✓ Monthly reports and insights</li>
                 <li className="mb-3">✓ Cross-platform accessibility</li>
               </ul>
-              <button className="btn btn-outline-dark btn-lg mt-3">
-                Learn More
-              </button>
             </div>
             <div className="col-lg-6">
               <img
