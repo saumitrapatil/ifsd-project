@@ -14,6 +14,10 @@ function App() {
       path: '/app',
       element: <Tracker />
     },
+    {
+      path: '/team',
+      element: <Team />
+    },
   ])
   return (
     <div>
