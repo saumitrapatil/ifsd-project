@@ -22,6 +22,11 @@ export default function Home() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
+                <a className="nav-link" href="/">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="/app">
                   Go to app
                 </a>
@@ -58,7 +63,11 @@ export default function Home() {
                 patterns, helping you make informed decisions about your money
                 management.
               </p>
-              <button className="btn btn-dark btn-lg">Get Started</button>
+              <button className="btn btn-dark btn-lg">
+                <a className="btn btn-dark btn-lg" href="/app">
+                  Get Started
+                </a>
+              </button>
             </div>
           </div>
         </div>

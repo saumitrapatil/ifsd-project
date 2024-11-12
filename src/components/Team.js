@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card, Nav, Navbar } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import aryanPhoto from "../assets/aryanPhoto.jpeg";
 import saumitraPhoto from "../assets/saumitraPhoto.jpg";
@@ -53,22 +53,36 @@ const Team = () => {
     <div className="min-h-screen bg-light">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="/">ExpenseTracker</a>
-          <button 
-            className="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
+          <a className="navbar-brand" href="/">
+            ExpenseTracker
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/app">Go to app</a>
+                <a className="nav-link" href="/">
+                  Home
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/team">Team</a>
+                <a className="nav-link" href="/app">
+                  Go to app
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/team">
+                  Team
+                </a>
               </li>
             </ul>
           </div>
