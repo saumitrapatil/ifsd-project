@@ -1,5 +1,8 @@
 import image2 from "../assets/image2.png";
 import image from "../assets/image.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 export default function Home() {
   return (
     <div className="container-fluid p-0">
@@ -66,11 +69,9 @@ export default function Home() {
                 patterns, helping you make informed decisions about your money
                 management.
               </p>
-              <button className="btn btn-dark btn-lg">
-                <a className="btn btn-dark btn-lg" href="/app">
-                  Get Started
-                </a>
-              </button>
+              <a className="btn btn-dark btn-lg" href="/app">
+                Get Started
+              </a>
             </div>
           </div>
         </div>
