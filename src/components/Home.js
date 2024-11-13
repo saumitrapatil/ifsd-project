@@ -1,5 +1,6 @@
 import image2 from "../assets/image2.png";
 import image from "../assets/image.png";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 export default function Home() {
   return (
     <div className="container-fluid p-0">
@@ -13,6 +14,9 @@ export default function Home() {
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
